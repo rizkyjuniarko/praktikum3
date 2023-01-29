@@ -70,7 +70,10 @@ for i in range(1,lebar_belah_ketupat):
   # Input angka variabel maka akan muncul bintang bintang sesuai angka tersebut
   ![gambar8](screenshoot/ss8.png)
 
-  # Kode  program untuk menghitung luas dan keliling lingkaran menggunakan phycharm dengan mengetikkan
+  # Kode  program untuk menghitung luas dan keliling lingkaran menggunakan phycharm 
+# Berikut Algoritma Flowchartnya :
+![gambar12](screenshoot/ss12.png)
+# Berikut Ketika di presentasikan menggunakan phycharm
 r = input("Masukan Jari-Jari Lingkaran:")
 pi = 3.14
 l = pi * int(r) * int(r)
