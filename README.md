@@ -40,3 +40,47 @@ else:
     print("Operasi yang dimasukkan salah")
 # Hasil Eksekusi
 ![gambar6](screenshoot/ss6.png)
+Masukan Input Varaibel Angka a dan b Berapa Saja maka akan muncul opsi mau dijumlahkan, pilih opsi makan akan muncul hasilnya
+
+# Membuat format kode string membentuk diamond dengan mengetikkan
+![gambar7](screenshoot/ss7.png)
+print('##  Membuat Diamond Bintang  ##')
+print('======RIZKY=======')
+print('====312210713=====')
+print()
+ 
+lebar_belah_ketupat = int(input('Input Angka: '))
+print()
+ 
+for i in range(lebar_belah_ketupat):
+  for j in range(lebar_belah_ketupat-i):
+    print(' ',end='')
+     
+  for k in range(i+1):
+    print('* ',end='')
+  print()
+
+for i in range(1,lebar_belah_ketupat):
+  for j in range(i+1):
+    print(' ',end='')
+     
+  for k in range(lebar_belah_ketupat-i):
+    print('* ',end='')
+  print()
+  # Input angka variabel maka akan muncul bintang bintang sesuai angka tersebut
+  ![gambar8](screenshoot/ss8.png)
+
+  # Kode  program untuk menghitung luas dan keliling lingkaran menggunakan phycharm dengan mengetikkan
+r = input("Masukan Jari-Jari Lingkaran:")
+pi = 3.14
+l = pi * int(r) * int(r)
+k = 2 * pi * int(r)
+print("Luas Lingkaran:", l)
+print("Kelililng Lingkaran:", k)
+![gambar9](screenshoot/ss9.png)
+# Masukan Jari Jarin Lingkaran, Misal 8
+![gambar10](screenshoot/ss10.png)
+# Makan akan muncul hasilnya
+![gambar11](screenshoot/ss11.png)
+
+
